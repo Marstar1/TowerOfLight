@@ -10,26 +10,32 @@ public class CardActions {
         public int applyCardActionE (String cardName){
             int damage = 0;
 
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта1.png")) {
+            if (cardName.equals("Images/Карта1.png")) {
                 damage = 8;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта2.png")) {
+            if (cardName.equals("Images/Карта2.png")) {
                 damage = 11;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта5.png")) {
+            if (cardName.equals("Images/Карта5.png")) {
                 damage = 12;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта7.png")) {
+            if (cardName.equals("Images/Карта7.png")) {
                 damage = 6;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта8.png")) {
+            if (cardName.equals("Images/Карта8.png")) {
                 damage = 6;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта9.png")) {
+            if (cardName.equals("Images/Карта9.png")) {
                 damage = 6;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта10.png")) {
+            if (cardName.equals("Images/Карта10.png")) {
                 damage = 6;
+            }
+            if (cardName.equals("Images/Карта14.png")) {
+                damage = 5;
+            }
+            if (cardName.equals("Images/Карта15.png")) {
+                damage = 9;
             }
 
             return damage;
@@ -37,7 +43,7 @@ public class CardActions {
         public int applyCardActionH(String cardName){
             int heal = 0;
 
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта3.png")) {
+            if (cardName.equals("Images/Карта3.png")) {
                 heal = 5;
             }
             return heal;
@@ -47,23 +53,26 @@ public class CardActions {
         public int applyCardActionS(String cardName) {
             int shield = 0;
 
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта4.png")) {
+            if (cardName.equals("Images/Карта4.png")) {
                 shield = 8;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта6.png")) {
+            if (cardName.equals("Images/Карта6.png")) {
                 shield = 11;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта11.png")) {
+            if (cardName.equals("Images/Карта11.png")) {
                 shield = 8;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта12.png")) {
+            if (cardName.equals("Images/Карта12.png")) {
                 shield = 8;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта13.png")) {
+            if (cardName.equals("Images/Карта13.png")) {
                 shield = 8;
             }
-            if (cardName.equals("C:/Users/Зяйка/Desktop/Курсач/Карта5.png")) {
+            if (cardName.equals("Images/Карта5.png")) {
                 shield = 3;
+            }
+            if (cardName.equals("Images/Карта16.png")) {
+                shield = 15;
             }
 
             return shield;

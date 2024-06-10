@@ -3,10 +3,11 @@ import java.awt.*;
 
 public class Hero extends JLabel {
     public int health;
-    private int shield;
+    public int shield;
     public int maxHealth;
     private JProgressBar healthBar1;
     private JProgressBar shieldBar;
+
 
 
     public Hero(ImageIcon imageIcon, int width, int height, int maxHealth1) {
@@ -64,7 +65,7 @@ public class Hero extends JLabel {
         shieldBar.setStringPainted(true);
         shieldBar.setValue(0); // начальное значение щита
         shieldBar.setAlignmentX(SwingConstants.CENTER);
-        shieldBar.setForeground(Color.CYAN); // цвет полоски щита
+        shieldBar.setForeground(Color.GREEN); // цвет полоски щита
         shieldBar.setString("Защита:"); // текст на полоске щита
         return shieldBar;
     }
@@ -80,6 +81,18 @@ public class Hero extends JLabel {
         shieldBar.setValue(shield);
         shieldBar.setString("Защита:" + shield);
         shieldBar.repaint();
+    }
+    public void hideHealthBar1() {
+        healthBar1.setVisible(false);
+    }
+    public void hideShieldBar() {
+        shieldBar.setVisible(false);
+    }
+    public void seeHealthBar1() {
+        healthBar1.setVisible(true);
+    }
+    public void seeShieldBar() {
+        shieldBar.setVisible(true);
     }
 }
 
